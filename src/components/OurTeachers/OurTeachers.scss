@@ -1,0 +1,149 @@
+.our__teachers {
+    padding: 90px 0;
+
+    .our__teachers-inner {
+        h2 {
+            color: rgba(0, 0, 0, 1);
+            font-size: 40px;
+            text-align: center;
+            font-weight: 900;
+            font-style: normal;
+        }
+
+        .cards {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 50px;
+
+            .card {
+                border-radius: 8px;
+                border-color: rgba(244, 244, 244, 1);
+                border-style: solid;
+                border-width: 0px;
+                background-color: rgba(233, 243, 246, 1);
+                padding: 18px 5px 0 5px;
+                margin-bottom: 32px;
+                height: 540px;
+
+                img {
+                    width: 245px;
+                }
+
+                h3 {
+                    color: rgba(0, 0, 0, 1);
+                    font-size: 18px;
+                    text-align: center;
+                    font-weight: 700;
+                    font-style: normal;
+                    margin-top: 15px;
+                    margin-bottom: 8px;
+                }
+
+                p {
+                    color: rgba(68, 68, 68, 0.6);
+                    font-size: 16px;
+                    text-align: center;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+
+                a {
+                    border-top-left-radius: 126px;
+                    border-top-right-radius: 126px;
+                    border-bottom-left-radius: 126px;
+                    border-bottom-right-radius: 126px;
+                    border-color: rgba(255,255,255,1);
+                    border-style: solid;
+                    border-width: 0px;
+                    color: rgba(255,255,255,1);
+                    font-size: 14px;
+                    text-align: center;
+                    font-weight: 500;
+                    text-decoration: none;
+                    font-style: normal;
+                    padding: 20px 16px;
+                    display: block;
+                    margin: 25px 15px;
+                    background: rgba(31,80,161,1);
+                    background: -moz-linear-gradient(0deg, rgba(31,80,161,1) , rgba(0,188,194,1));
+                    background: -webkit-gradient(0deg, color-stop(0%, rgba(31,80,161,1)), color-stop(100%, rgba(0,188,194,1)));
+                    background: -webkit-linear-gradient(0deg, rgba(31,80,161,1), rgba(0,188,194,1));
+                    background: -o-linear-gradient(0deg, rgba(31,80,161,1), rgba(0,188,194,1));
+                    background: -ms-linear-gradient(0deg, rgba(31,80,161,1), rgba(0,188,194,1));
+                    background: linear-gradient(0deg, rgba(31,80,161,1) , rgba(0,188,194,1) );
+                    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(31,80,161,1)', endColorstr='rgba(0,188,194,1)', GradientType=0 )
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .our__teachers {
+        padding: 80px 0;
+    
+        .our__teachers-inner {    
+            .cards {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin-top: 50px;
+    
+                .card {
+                    margin: 0 20px;
+                    margin-bottom: 32px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 429px) and (max-width: 768px) {
+    .our__teachers {    
+        .our__teachers-inner {
+            h2 {
+                font-size: 32px;
+            }
+    
+            .cards {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin-top: 50px;
+    
+                .card {
+                    margin: 0 20px 32px 20px;
+            }
+        }
+    }    
+}
+}
+
+@media (min-width: 0) and (max-width: 428px) {
+    .our__teachers {    
+        .our__teachers-inner {
+            h2 {
+                font-size: 24px;
+            }
+    
+            .cards {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin-top: 50px;
+    
+                .card {
+                    width: 100%;
+
+                    img {
+                        margin: 0 17.5%;
+                    }
+            }
+        }
+    }    
+}
+}
